@@ -22,7 +22,7 @@
             <!-- Conteúdo -->
             <div class="col-md-10" style="padding-top: 50px;">
                 <h2>Página Inicial</h2>
-
+                <?php include 'includes/busca.php'; ?>
                 <?php
                 // Inclusão dos arquivos PHP essenciais
                 require_once 'includes/funcoes.php';

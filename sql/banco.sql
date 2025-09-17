@@ -23,3 +23,6 @@ data_postagem DATETIME NOT NULL,
 
 FOREIGN KEY(usuario_id) REFERENCES usuario(id)
 );
+
+INSERT INTO usuario (nome, email, senha, ativo, adm)
+VALUES ('Maria', 'maria@gmail.com', '12345678', 1, 0);
