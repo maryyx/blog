@@ -24,5 +24,5 @@ data_postagem DATETIME NOT NULL,
 FOREIGN KEY(usuario_id) REFERENCES usuario(id)
 );
 
-INSERT INTO usuario (nome, email, senha, ativo, adm)
-VALUES ('Maria', 'maria@gmail.com', '12345678', 1, 0);
+update usuario set ativo = '1' where id =1;
+update usuario set adm = '1' where id=1;

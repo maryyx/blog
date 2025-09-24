@@ -22,15 +22,17 @@
                 <div class="card-body">
                     <form method="post" action="core/usuario_repositorio.php">
                         <input type="hidden" name="acao" value="login">
-                        
+
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input class="form-control" type="text" required="required" id="email" name="email">
+                            <input type="text" class="form-control" id="email" 
+                                   required="required" name="email">
                         </div>
 
                         <div class="form-group">
                             <label for="senha">Senha</label>
-                            <input class="form-control" type="password" required="required" id="senha" name="senha">
+                            <input class="form-control" type="password" 
+                                   required="required" name="senha" id="senha">
                         </div>
 
                         <div class="text-right">
